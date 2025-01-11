@@ -1,4 +1,4 @@
-﻿<UserControl x:Class="Gemini.Modules.Output.Views.OutputView"
+<UserControl x:Class="Gemini.Modules.Output.Views.OutputView"
              xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
@@ -14,5 +14,6 @@
              AcceptsReturn="True" 
 			 FontFamily="Consolas"
              BorderThickness="0"
-             ScrollViewer.VerticalScrollBarVisibility="Visible"/>
+             ScrollViewer.VerticalScrollBarVisibility="Visible"
+             TextWrapping="NoWrap" />
 </UserControl>
